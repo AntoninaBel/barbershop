@@ -1,0 +1,132 @@
+:root {
+  --text-color: #ffffff;
+  --accent-color: #3a99ce;
+  --bg-color: #252525;
+  --bg-second-color: #dcdcdc;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--text-color);
+}
+.header {
+  background-color: var(--bg-second-color);
+}
+.header-link {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-color);
+}
+.header-btn {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1; /* 17px */
+  letter-spacing: -0.85px;
+  color: var(--text-color);
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: #0f0324;
+}
+.hero {
+  background: var(--bg-color);
+}
+.hero-title {
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 1; /* 150px */
+  letter-spacing: -7.5px;
+}
+.hero-part {
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -7.5px;
+  color: var(--accent-color);
+}
+.hero-btn {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1; /* 70px */
+  letter-spacing: -3.5px;
+  color: var(--text-color);
+}
+.hours {
+  background-color: var(--bg-color);
+}
+.hours-title {
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 1; /* 110px */
+  letter-spacing: -5.5px;
+}
+.hours-sub-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1; /* 40px */
+  letter-spacing: -2px;
+}
+.team {
+  background-color: var(--bg-second-color);
+}
+.team-title {
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 1; /* 128px */
+  letter-spacing: -6.4px;
+  color: #252525;
+}
+.prices {
+  background-color: var(--bg-color);
+}
+.prices-title {
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 1; /* 110px */
+  letter-spacing: -5.5px;
+}
+.prices-sub-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1; /* 40px */
+  letter-spacing: -2px;
+}
+.media {
+  background-color: var(--bg-second-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.footer {
+  background-color: var(--bg-second-color);
+}
+.footer-pre-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  color: #252525;
+}
+.social-item {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: normal;
+  color: #454545;
+}
+.footer-after-title {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1; /* 25px */
+  letter-spacing: -1.25px;
+  color: #252525;
+}
